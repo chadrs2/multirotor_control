@@ -131,6 +131,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/chad/multirotor_control/build/gtest/cmake_install.cmake")
+  include("/home/chad/multirotor_control/build/fly_1_drone/cmake_install.cmake")
+  include("/home/chad/multirotor_control/build/fly_2_drones/cmake_install.cmake")
 
 endif()
 

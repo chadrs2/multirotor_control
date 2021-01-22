@@ -1,2 +1,2 @@
-
+fly_1_drone:fly_2_drones
 -DCATKIN_DEVEL_PREFIX=/home/chad/multirotor_control/devel -DCMAKE_INSTALL_PREFIX=/home/chad/multirotor_control/install -G Unix Makefiles

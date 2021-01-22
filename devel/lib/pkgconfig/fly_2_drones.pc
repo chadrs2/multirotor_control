@@ -1,0 +1,8 @@
+prefix=/home/chad/multirotor_control/devel
+
+Name: fly_2_drones
+Description: Description of fly_2_drones
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

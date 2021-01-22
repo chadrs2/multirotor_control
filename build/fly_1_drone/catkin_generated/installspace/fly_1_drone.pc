@@ -1,0 +1,8 @@
+prefix=/home/chad/multirotor_control/install
+
+Name: fly_1_drone
+Description: Description of fly_1_drone
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

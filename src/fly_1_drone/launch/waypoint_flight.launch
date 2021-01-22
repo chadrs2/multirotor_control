@@ -1,0 +1,9 @@
+<launch>
+    <arg name="turn_on_sensors" default="true"/>
+
+    <group if="$(eval arg('turn_on_sensors')==true)">
+        <include file="$(find fly_1_drone)/launch/sensor_init.launch"/>
+    </group>
+
+    <node pkg="fly_1_drone" type="manuel_waypoint_nav.py" name="waypoint_manager" output="screen"/>
+</launch>

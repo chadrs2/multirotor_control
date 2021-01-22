@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="fly_1_drone" type="odom_processing.py" name="odometry" output="screen"/>
+    <node pkg="fly_1_drone" type="lidar_processing.py" name="lidar" output="screen"/>
+    <node pkg="fly_1_drone" type="airsim_cam.py" name="airsim_cam" output="screen"/>
+    <node pkg="fly_1_drone" type="camera_processing.py" name="camera_processing" output="screen"/>
+</launch>

@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/chad/multirotor_control/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/chad/multirotor_control/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/chad/multirotor_control/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/chad/multirotor_control/src:$ROS_PACKAGE_PATH"
